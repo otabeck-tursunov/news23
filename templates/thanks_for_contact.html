@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!-- Thanks Message Start -->
+    <div class="container-fluid bg-light min-vh-100 d-flex align-items-center">
+        <div class="container text-center py-5">
+            <h1 class="display-4 text-primary">Rahmat!</h1>
+            <p class="lead mt-4">
+                Ma'lumotlaringiz muvaffaqiyatli qoldirildi!
+                Siz bilan tez orada bog'lanamiz.
+            </p>
+            <a href="{% url 'home' %}" class="btn btn-primary rounded-pill py-3 px-5 mt-4">
+                Asosiy sahifaga qaytish
+            </a>
+        </div>
+    </div>
+    <!-- Thanks Message End -->
+{% endblock %}
